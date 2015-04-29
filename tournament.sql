@@ -16,6 +16,6 @@ CREATE TABLE players
 CREATE TABLE matches
 (
     mtcid serial primary key,
-    winner int,
-	loser int
+    winner int REFERENCES players (plyid), 
+    loser int REFERENCES players (plyid)
 );

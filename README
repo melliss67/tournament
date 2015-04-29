@@ -1,0 +1,12 @@
+Tournament Project
+by Matt Ellis
+2015-04-28
+
+Summary:
+Project to take an even number of players add them to a database to used in a swiss style tournament. Players can be added and results of matches can be stored in the database. Standings can be reported and the next round of matches can be returned.
+
+Requirements:
+Python must be installed and configured on the computer to run this project. You also need access to a Postgresql database for storing the information.
+
+Usage:
+Use the tournament.sql file to create the database for storing the tournament information. After you have created the database you can use the functions in the tournament.py file to set up, run, and delete tournaments.

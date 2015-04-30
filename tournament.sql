@@ -7,6 +7,8 @@
 -- these lines here.
 CREATE DATABASE tournament;
 
+\c tournament
+
 CREATE TABLE players
 (
     plyid serial primary key,
